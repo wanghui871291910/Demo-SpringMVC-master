@@ -1,0 +1,173 @@
+49:30.865[AbstractAutowireCapableBeanFactory.java:504:DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+49:30.865[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+49:30.866[DefaultSingletonBeanRegistry.java:217:DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+49:30.866[AbstractAutowireCapableBeanFactory.java:430:DEBUG] Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+49:30.866[AbstractAutowireCapableBeanFactory.java:504:DEBUG] Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0' to allow for resolving potential circular references
+49:30.866[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+49:30.867[AbstractApplicationContext.java:799:DEBUG] Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@ca5f32c]
+49:30.867[AbstractApplicationContext.java:823:DEBUG] Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@62ffd430]
+49:30.867[UiApplicationContextUtils.java:85 :DEBUG] Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@9c3ce17]
+49:30.868[DefaultListableBeanFactory.java:581:INFO ] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@47ee14d4: defining beans [indexController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,mappingJacksonHttpMessageConverter,utf8StringHttpMessageConverter,viewResolver,org.springframework.web.servlet.i18n.LocaleChangeInterceptor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1c2859eb
+49:30.868[AbstractBeanFactory.java:245:DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+49:30.869[AbstractBeanFactory.java:245:DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+49:30.869[AbstractBeanFactory.java:245:DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+49:30.869[AbstractBeanFactory.java:245:DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+49:30.869[AbstractBeanFactory.java:245:DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+49:30.870[AbstractApplicationContext.java:850:DEBUG] Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@160f4d03]
+49:30.870[AbstractBeanFactory.java:245:DEBUG] Returning cached instance of singleton bean 'lifecycleProcessor'
+49:30.872[  DispatcherServlet.java:465:DEBUG] Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+49:30.873[AbstractAutowireCapableBeanFactory.java:430:DEBUG] Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+49:30.881[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+49:30.881[  DispatcherServlet.java:487:DEBUG] Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@67e0612c]
+49:30.883[AbstractAutowireCapableBeanFactory.java:430:DEBUG] Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+49:30.896[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+49:30.896[  DispatcherServlet.java:509:DEBUG] Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@4ceb4f17]
+49:30.900[AbstractAutowireCapableBeanFactory.java:430:DEBUG] Creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+49:30.928[AbstractDetectingUrlHandlerMapping.java:71 :DEBUG] Looking for URL mappings in application context: WebApplicationContext for namespace 'contacts-servlet': startup date [Mon Mar 12 15:49:30 CST 2018]; parent: Root WebApplicationContext
+49:30.929[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'indexController': no URL paths identified
+49:30.929[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+49:30.930[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+49:30.930[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+49:30.930[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+49:30.931[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0': no URL paths identified
+49:30.931[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'mappingJacksonHttpMessageConverter': no URL paths identified
+49:30.932[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'utf8StringHttpMessageConverter': no URL paths identified
+49:30.932[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'viewResolver': no URL paths identified
+49:30.932[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'org.springframework.web.servlet.i18n.LocaleChangeInterceptor#0': no URL paths identified
+49:30.933[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0': no URL paths identified
+49:30.933[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'servletConfig': no URL paths identified
+49:30.933[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'importRegistry': no URL paths identified
+49:30.933[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'messageSource': no URL paths identified
+49:30.934[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'applicationEventMulticaster': no URL paths identified
+49:30.934[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'lifecycleProcessor': no URL paths identified
+49:30.934[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+49:30.936[AbstractAutowireCapableBeanFactory.java:430:DEBUG] Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping'
+49:30.960[AbstractDetectingUrlHandlerMapping.java:71 :DEBUG] Looking for URL mappings in application context: WebApplicationContext for namespace 'contacts-servlet': startup date [Mon Mar 12 15:49:30 CST 2018]; parent: Root WebApplicationContext
+49:30.962[DefaultSingletonBeanRegistry.java:217:DEBUG] Creating shared instance of singleton bean 'indexController'
+49:30.963[AbstractAutowireCapableBeanFactory.java:430:DEBUG] Creating instance of bean 'indexController'
+49:30.963[AbstractAutowireCapableBeanFactory.java:504:DEBUG] Eagerly caching bean 'indexController' to allow for resolving potential circular references
+49:30.964[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'indexController'
+49:30.964[AbstractUrlHandlerMapping.java:314:INFO ] Mapped URL path [/index] onto handler 'indexController'
+49:30.965[AbstractBeanFactory.java:245:DEBUG] Returning cached instance of singleton bean 'indexController'
+49:30.965[AbstractUrlHandlerMapping.java:314:INFO ] Mapped URL path [/index.*] onto handler 'indexController'
+49:30.965[AbstractBeanFactory.java:245:DEBUG] Returning cached instance of singleton bean 'indexController'
+49:30.965[AbstractUrlHandlerMapping.java:314:INFO ] Mapped URL path [/index/] onto handler 'indexController'
+49:30.966[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+49:30.966[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+49:30.966[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+49:30.967[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+49:30.967[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0': no URL paths identified
+49:30.967[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'mappingJacksonHttpMessageConverter': no URL paths identified
+49:30.968[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'utf8StringHttpMessageConverter': no URL paths identified
+49:30.968[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'viewResolver': no URL paths identified
+49:30.968[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'org.springframework.web.servlet.i18n.LocaleChangeInterceptor#0': no URL paths identified
+49:30.969[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0': no URL paths identified
+49:30.969[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'servletConfig': no URL paths identified
+49:30.969[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'importRegistry': no URL paths identified
+49:30.970[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'messageSource': no URL paths identified
+49:30.970[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'applicationEventMulticaster': no URL paths identified
+49:30.970[AbstractDetectingUrlHandlerMapping.java:86 :DEBUG] Rejected bean name 'lifecycleProcessor': no URL paths identified
+49:30.971[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping'
+49:30.971[  DispatcherServlet.java:549:DEBUG] No HandlerMappings found in servlet 'contacts': using default
+49:30.971[DefaultSingletonBeanRegistry.java:217:DEBUG] Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0'
+49:30.972[AbstractAutowireCapableBeanFactory.java:430:DEBUG] Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0'
+49:31.078[AbstractAutowireCapableBeanFactory.java:504:DEBUG] Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0' to allow for resolving potential circular references
+49:31.105[DefaultSingletonBeanRegistry.java:217:DEBUG] Creating shared instance of singleton bean 'mappingJacksonHttpMessageConverter'
+49:31.106[AbstractAutowireCapableBeanFactory.java:430:DEBUG] Creating instance of bean 'mappingJacksonHttpMessageConverter'
+49:31.345[AbstractAutowireCapableBeanFactory.java:504:DEBUG] Eagerly caching bean 'mappingJacksonHttpMessageConverter' to allow for resolving potential circular references
+49:31.361[AbstractEnvironment.java:114:DEBUG] Initializing new StandardEnvironment
+49:31.361[MutablePropertySources.java:104:DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+49:31.362[MutablePropertySources.java:104:DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+49:31.362[AbstractEnvironment.java:120:DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+49:31.362[AbstractEnvironment.java:114:DEBUG] Initializing new StandardEnvironment
+49:31.363[MutablePropertySources.java:104:DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+49:31.363[MutablePropertySources.java:104:DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+49:31.363[AbstractEnvironment.java:120:DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+49:31.364[AbstractEnvironment.java:114:DEBUG] Initializing new StandardEnvironment
+49:31.364[MutablePropertySources.java:104:DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+49:31.364[MutablePropertySources.java:104:DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+49:31.365[AbstractEnvironment.java:120:DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+49:31.368[AbstractEnvironment.java:114:DEBUG] Initializing new StandardEnvironment
+49:31.368[MutablePropertySources.java:104:DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+49:31.369[MutablePropertySources.java:104:DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+49:31.369[AbstractEnvironment.java:120:DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+49:31.370[AbstractEnvironment.java:114:DEBUG] Initializing new StandardEnvironment
+49:31.371[MutablePropertySources.java:104:DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+49:31.371[MutablePropertySources.java:104:DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+49:31.372[AbstractEnvironment.java:120:DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+49:31.380[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'mappingJacksonHttpMessageConverter'
+49:31.380[DefaultSingletonBeanRegistry.java:217:DEBUG] Creating shared instance of singleton bean 'utf8StringHttpMessageConverter'
+49:31.381[AbstractAutowireCapableBeanFactory.java:430:DEBUG] Creating instance of bean 'utf8StringHttpMessageConverter'
+49:31.384[AbstractAutowireCapableBeanFactory.java:504:DEBUG] Eagerly caching bean 'utf8StringHttpMessageConverter' to allow for resolving potential circular references
+49:31.397[AbstractEnvironment.java:114:DEBUG] Initializing new StandardEnvironment
+49:31.398[MutablePropertySources.java:104:DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+49:31.398[MutablePropertySources.java:104:DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+49:31.399[AbstractEnvironment.java:120:DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+49:31.400[AbstractEnvironment.java:114:DEBUG] Initializing new StandardEnvironment
+49:31.400[MutablePropertySources.java:104:DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+49:31.400[MutablePropertySources.java:104:DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+49:31.401[AbstractEnvironment.java:120:DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+49:31.401[AbstractEnvironment.java:114:DEBUG] Initializing new StandardEnvironment
+49:31.402[MutablePropertySources.java:104:DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+49:31.402[MutablePropertySources.java:104:DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+49:31.402[AbstractEnvironment.java:120:DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+49:31.403[AbstractEnvironment.java:114:DEBUG] Initializing new StandardEnvironment
+49:31.403[MutablePropertySources.java:104:DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+49:31.403[MutablePropertySources.java:104:DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+49:31.404[AbstractEnvironment.java:120:DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+49:31.404[AbstractEnvironment.java:114:DEBUG] Initializing new StandardEnvironment
+49:31.405[MutablePropertySources.java:104:DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+49:31.405[MutablePropertySources.java:104:DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+49:31.405[AbstractEnvironment.java:120:DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+49:31.406[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'utf8StringHttpMessageConverter'
+49:31.406[AbstractEnvironment.java:114:DEBUG] Initializing new StandardEnvironment
+49:31.407[MutablePropertySources.java:104:DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+49:31.407[MutablePropertySources.java:104:DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+49:31.407[AbstractEnvironment.java:120:DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+49:31.408[AbstractEnvironment.java:114:DEBUG] Initializing new StandardEnvironment
+49:31.408[MutablePropertySources.java:104:DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+49:31.408[MutablePropertySources.java:104:DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+49:31.409[AbstractEnvironment.java:120:DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+49:31.409[AbstractEnvironment.java:114:DEBUG] Initializing new StandardEnvironment
+49:31.409[MutablePropertySources.java:104:DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+49:31.410[MutablePropertySources.java:104:DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+49:31.410[AbstractEnvironment.java:120:DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+49:31.410[AbstractEnvironment.java:114:DEBUG] Initializing new StandardEnvironment
+49:31.410[MutablePropertySources.java:104:DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+49:31.411[MutablePropertySources.java:104:DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+49:31.411[AbstractEnvironment.java:120:DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+49:31.411[AbstractEnvironment.java:114:DEBUG] Initializing new StandardEnvironment
+49:31.412[MutablePropertySources.java:104:DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+49:31.413[MutablePropertySources.java:104:DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+49:31.413[AbstractEnvironment.java:120:DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+49:31.414[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0'
+49:31.416[AbstractAutowireCapableBeanFactory.java:430:DEBUG] Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerExceptionResolver'
+49:31.435[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerExceptionResolver'
+49:31.437[AbstractAutowireCapableBeanFactory.java:430:DEBUG] Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver'
+49:31.457[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver'
+49:31.458[AbstractAutowireCapableBeanFactory.java:430:DEBUG] Creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver'
+49:31.471[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver'
+49:31.471[  DispatcherServlet.java:626:DEBUG] No HandlerExceptionResolvers found in servlet 'contacts': using default
+49:31.472[AbstractAutowireCapableBeanFactory.java:430:DEBUG] Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+49:31.480[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+49:31.480[  DispatcherServlet.java:647:DEBUG] Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@61312de3]
+49:31.480[DefaultSingletonBeanRegistry.java:217:DEBUG] Creating shared instance of singleton bean 'viewResolver'
+49:31.480[AbstractAutowireCapableBeanFactory.java:430:DEBUG] Creating instance of bean 'viewResolver'
+49:31.487[AbstractAutowireCapableBeanFactory.java:504:DEBUG] Eagerly caching bean 'viewResolver' to allow for resolving potential circular references
+49:31.507[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'viewResolver'
+49:31.509[AbstractAutowireCapableBeanFactory.java:430:DEBUG] Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+49:31.522[AbstractAutowireCapableBeanFactory.java:458:DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+49:31.522[  DispatcherServlet.java:709:DEBUG] Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@50838d21]
+49:31.523[   FrameworkServlet.java:523:DEBUG] Published WebApplicationContext of servlet 'contacts' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.contacts]
+49:31.523[   FrameworkServlet.java:463:INFO ] FrameworkServlet 'contacts': initialization completed in 774 ms
+49:31.523[    HttpServletBean.java:136:DEBUG] Servlet 'contacts' configured successfully
+49:42.443[  DispatcherServlet.java:819:DEBUG] DispatcherServlet with name 'contacts' processing GET request for [/SpringMVC-Maven/index.htm]
+49:42.445[AbstractUrlHandlerMapping.java:169:DEBUG] Matching patterns for request [/index.htm] are [/index.*]
+49:42.446[AbstractUrlHandlerMapping.java:193:DEBUG] URI Template variables for request [/index.htm] are {}
+49:42.447[AbstractUrlHandlerMapping.java:124:DEBUG] Mapping [/index.htm] to HandlerExecutionChain with handler [cn.jxufe.web.controller.IndexController@541ae987] and 1 interceptor
+49:42.451[  DispatcherServlet.java:902:DEBUG] Last-Modified value for [/SpringMVC-Maven/index.htm] is: -1
+49:42.463[HandlerMethodInvoker.java:173:DEBUG] Invoking request handler method: public java.lang.String cn.jxufe.web.controller.IndexController.list(javax.servlet.http.HttpServletRequest)
+49:45.520[AbstractAutowireCapableBeanFactory.java:1498:DEBUG] Invoking afterPropertiesSet() on bean with name 'index'
+49:45.521[  DispatcherServlet.java:1178:DEBUG] Rendering view [org.springframework.web.servlet.view.JstlView: name 'index'; URL [/WEB-INF/pages/index.jsp]] in DispatcherServlet with name 'contacts'
+49:45.540[InternalResourceView.java:236:DEBUG] Forwarding to resource [/WEB-INF/pages/index.jsp] in InternalResourceView 'index'
+49:45.553[   FrameworkServlet.java:913:DEBUG] Successfully completed request
